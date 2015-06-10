@@ -34,9 +34,9 @@ SpeedTest.prototype = {
     }
     this.average = sumTimes / this.repetitions;
     alert("The average time for " + this.repetitions + ": " +
-												this.average);
+	this.average);
   }
 };
 
-var bpTest = new SpeedTest(populationGetter, popn);
+var bpTest = new SpeedTest(/* enter params*/);
 bpTest.startTest();
